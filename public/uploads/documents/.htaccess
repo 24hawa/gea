@@ -1,0 +1,13 @@
+# Disable script execution
+Options -ExecCGI
+AddHandler cgi-script .php .php3 .php4 .php5 .phtml .pl .py .jsp .asp .htm .html .sh .cgi
+<Files ^(*)>
+    ForceType application/octet-stream
+    Header set Content-Disposition attachment
+</Files>
+
+# Only allow specific extensions if you want extra safety
+<FilesMatch "\.(?i:pdf)$">
+    ForceType application/pdf
+    Header set Content-Disposition inline
+</FilesMatch>

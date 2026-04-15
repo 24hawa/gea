@@ -1,0 +1,1 @@
+beforeLoginUrl|s:38:"http://localhost:8080/index.php/logout";__ci_vars|a:2:{s:14:"beforeLoginUrl";i:1775901136;s:7:"message";s:3:"old";}__ci_last_regenerate|i:1775907747;message|s:33:"You have successfully logged out.";csrf_test_name|s:32:"2ed9d9eb8de08da43699cdb146582c6c";_ci_previous_url|s:37:"http://localhost:8080/index.php/login";
